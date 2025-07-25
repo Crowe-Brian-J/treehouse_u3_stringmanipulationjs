@@ -6,7 +6,8 @@ const photoName = () => {
   name = name.trim()
 
   //replace the space between names with underscore
-  name = name.split(' ').join('_')
+  //name = name.split(' ').join('_')
+  name = name.replace(' ', '_')
 
   //change name to all lowercase
   name = name.toLowerCase()
